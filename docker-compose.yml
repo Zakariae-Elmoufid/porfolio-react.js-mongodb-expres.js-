@@ -16,13 +16,12 @@ services:
       context: ./server
       dockerfile: Dockerfile
     ports:
-      - "5000:5000"
+    - "5001:5001"
     volumes:
       - ./server:/app
       - /app/node_modules
     environment:
-    - MONGO_URI=mongodb+srv://moufidzakaria766:password@portfolio.eg6c2vi.mongodb.net/?retryWrites=true&w=majority&appName=portfolio
-    depends_on:
+      - MONGO_URI=mongodb://mongo:27017/portfolio
       - mongo
 
   mongo:
