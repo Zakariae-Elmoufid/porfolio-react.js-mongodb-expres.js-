@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+// import About from '../components/About';
+// import Academic from '../components/Academic';
+// import Technologies from '../components/Technologies';
+// import Projects from '../components/Projects';
+// import Contact from '../components/Contact';
+// import Footer from '../components/Footer';
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    document.title = "Zakariae Elmoufid | Full-Stack Developer";
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-gray-50">
+      <Navbar />
+       <Hero />
+      {/*<About />
+      <Academic />
+      <Technologies />
+      <Projects />
+      <Contact />
+      <Footer /> */}
     </div>
   );
-}
+};
 
 export default App;

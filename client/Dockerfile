@@ -1,4 +1,3 @@
-# client/Dockerfile.dev
 FROM node:18
 
 WORKDIR /app

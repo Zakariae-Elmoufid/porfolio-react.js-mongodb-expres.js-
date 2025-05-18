@@ -8,6 +8,11 @@ services:
     volumes:
       - ./client:/app
       - /app/node_modules
+    environment:
+    - CHOKIDAR_USEPOLLING=true
+    - FAST_REFRESH=true
+    - WDS_SOCKET_PORT=3000
+    - WATCHPACK_POLLING=true
     depends_on:
       - backend
 
@@ -30,6 +35,7 @@ services:
       - "27017:27017"
     volumes:
       - mongo-data:/data/db
+
 
 volumes:
   mongo-data:
