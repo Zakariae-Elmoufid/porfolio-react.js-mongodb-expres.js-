@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import picture from "../images/picture.jpg";
 import { ArrowDown } from 'lucide-react';
 import { Button } from './ui/button';
 
@@ -47,7 +48,7 @@ const Hero = () => {
           <div className="relative hidden md:block">
             <div className="relative w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img 
-                src="/lovable-uploads/2f1f790a-0a6b-4dde-ae04-133d90a29ade.png" 
+                src={picture} 
                 alt="Zakariae Elmoufid" 
                 className="w-full h-full object-cover"
               />
