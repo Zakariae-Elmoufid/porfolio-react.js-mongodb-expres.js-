@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/porfolio-react.js-mongodb-expres.js/static/css/main.78b124cd.css",
+    "main.js": "/porfolio-react.js-mongodb-expres.js/static/js/main.f226e2c2.js",
+    "static/js/453.419a5d54.chunk.js": "/porfolio-react.js-mongodb-expres.js/static/js/453.419a5d54.chunk.js",
+    "static/media/picture.jpg": "/porfolio-react.js-mongodb-expres.js/static/media/picture.dac1bbbc7c804cfb1780.jpg",
+    "index.html": "/porfolio-react.js-mongodb-expres.js/index.html",
+    "main.78b124cd.css.map": "/porfolio-react.js-mongodb-expres.js/static/css/main.78b124cd.css.map",
+    "main.f226e2c2.js.map": "/porfolio-react.js-mongodb-expres.js/static/js/main.f226e2c2.js.map",
+    "453.419a5d54.chunk.js.map": "/porfolio-react.js-mongodb-expres.js/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78b124cd.css",
+    "static/js/main.f226e2c2.js"
+  ]
+}
