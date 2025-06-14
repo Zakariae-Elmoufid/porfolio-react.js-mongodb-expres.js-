@@ -3,24 +3,12 @@ import { Code, Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+ 
 
   const navLinks = [
     { name: 'Home', href: '#home' },
@@ -33,9 +21,7 @@ const Navbar = () => {
 
   return (
     <nav 
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/90 shadow-md backdrop-blur-sm' : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white/90 shadow-md backdrop-blur-sm `}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">

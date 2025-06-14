@@ -4,8 +4,8 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Academic from './components/Academic';
 import Technologies from './components/Technologies';
-// import Projects from '../components/Projects';
-// import Contact from '../components/Contact';
+import Projects from './components/Projects';
+// import Contact from './components/Contact';
 // import Footer from '../components/Footer';
 
 const App = () => {
@@ -20,9 +20,9 @@ const App = () => {
       <About />
       <Academic />
       <Technologies />
-      {/*<Projects />
-      <Contact />
-      <Footer /> */}
+      <Projects />
+       {/* <Contact />
+     <Footer /> */}
     </div>
   );
 };

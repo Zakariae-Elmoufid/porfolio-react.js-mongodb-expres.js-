@@ -63,28 +63,28 @@ const Technologies = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <SkillCategory
             title="Back End"
-            items={["PHP", "Laravel", "SQL", "API Development", "Authentication"]}
+            items={["PHP", "Laravel", "SQL", "REST API"]}
             icon={<svg className="h-6 w-6 text-portfolio-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path></svg>}
             delay="animate-delay-100"
           />
           
           <SkillCategory
             title="Front End"
-            items={["HTML5", "CSS3", "Bootstrap", "Tailwind CSS", "JavaScript", "Responsive Design"]}
+            items={["HTML5", "CSS3", "Bootstrap", "Tailwind CSS", "JavaScript", "AJAX" , "REACT"]}
             icon={<svg className="h-6 w-6 text-portfolio-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>}
             delay="animate-delay-200"
           />
           
           <SkillCategory
             title="Database"
-            items={["MySQL", "PostgreSQL", "Database Design", "SQL Queries"]}
+            items={["MySQL", "PostgreSQL", "Mongodb"]}
             icon={<svg className="h-6 w-6 text-portfolio-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path></svg>}
             delay="animate-delay-300"
           />
           
           <SkillCategory
-            title="Design"
-            items={["UML", "Merise", "Wireframing", "User Flow"]}
+            title="tools"
+            items={["Jira", "Trello", "Git", "GitHub"]}
             icon={<svg className="h-6 w-6 text-portfolio-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 00-2 2v1a2 2 0 01-2 2h-2a2 2 0 01-2-2v-1a2 2 0 00-2-2H4a1 1 0 01-1-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"></path></svg>}
             delay="animate-delay-400"
           />

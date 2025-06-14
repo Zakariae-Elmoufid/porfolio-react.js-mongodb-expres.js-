@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.f6505dd1.js",
-    "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
-    "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.f6505dd1.js.map": "/static/js/main.f6505dd1.js.map",
-    "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
+    "main.css": "/porfolio-react.js-mongodb-expres.js/static/css/main.78b124cd.css",
+    "main.js": "/porfolio-react.js-mongodb-expres.js/static/js/main.f226e2c2.js",
+    "static/js/453.419a5d54.chunk.js": "/porfolio-react.js-mongodb-expres.js/static/js/453.419a5d54.chunk.js",
+    "static/media/picture.jpg": "/porfolio-react.js-mongodb-expres.js/static/media/picture.dac1bbbc7c804cfb1780.jpg",
+    "index.html": "/porfolio-react.js-mongodb-expres.js/index.html",
+    "main.78b124cd.css.map": "/porfolio-react.js-mongodb-expres.js/static/css/main.78b124cd.css.map",
+    "main.f226e2c2.js.map": "/porfolio-react.js-mongodb-expres.js/static/js/main.f226e2c2.js.map",
+    "453.419a5d54.chunk.js.map": "/porfolio-react.js-mongodb-expres.js/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.f6505dd1.js"
+    "static/css/main.78b124cd.css",
+    "static/js/main.f226e2c2.js"
   ]
 }
